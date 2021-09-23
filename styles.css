@@ -16,15 +16,32 @@ body {
   color: #403373;
 }
 
+main{
+  margin-top: 5rem;
+}
+
 th{
 	color: #403373 !important;
+}
+
+.list-unstyled li{
+  opacity: 0.8;
 }
 
 .bg-verdoso{
 	background-color: #3c4a69;
 }
 .bg-morado{
-	background-color: #282044;;
+	background-color: #282044;
+}
+.bg-morado-i{
+  background-color: #470fb5;
+}
+.tx-morado-i{
+  color: #470fb5;
+}
+.bg-morado-i-dark{
+  background-color: #2c0c6b;
 }
 .text-verde{
 	color: #3fc4c1;
@@ -142,9 +159,9 @@ th{
     line-height: 1.4;
   }
 
-  .featurette-heading {
+  /*.featurette-heading {
     font-size: 50px;
-  }
+  }*/
 }
 
 @media (min-width: 62em) {
