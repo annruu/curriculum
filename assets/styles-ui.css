@@ -221,6 +221,18 @@
          margin-top: 0;
      }
 
+     .perfil-sm{
+        background-image: url("img-ui/AndreaRuiz.png");
+        height: 120px;
+        width: 120px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        display: block;
+    }
+
+
 /* -------------------------- Proyectos */
 
     .proyectos{
@@ -352,11 +364,18 @@
 
 /* --------------- MEDIA QUERIES */
 
-@media screen and (max-width:766px) {
+@media screen and (max-width:991px){
 
     aside{
         display: none;
     }
+}
+@media screen and (max-width:767px) {
+
+    /* *{
+        margin: 0;
+        padding: 0;
+    } */
 
     /* ------- */
 
@@ -383,20 +402,20 @@
     .proyectos{
         display: none;
     }
+
+    /* ------- */
+
+    footer,.cosa{
+        display: block;
+    }
+    .btn-up{
+        /* left: 0px;
+        right: auto; */
+        display: none;
+    }
  }
 
- .perfil-sm{
-    background-image: url("img-ui/AndreaRuiz.png");
-    height: 120px;
-    width: 120px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    display: block;
-}
-
- @media screen and (min-width:1200px) {
+ @media screen and (min-width:992px) {
     .perfil-sm{
         display: none;
     }
