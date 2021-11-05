@@ -100,7 +100,7 @@
         color: #FFA726;
     }
     .fa-css3-alt{
-        color: #FF5722;
+        color: ##2983c5;
     }
     .fa-js-square{
         color: #CDDC39;
@@ -110,6 +110,9 @@
     }
     .fa-node-js{
         color: #689F38;
+    }
+    .fa-git-alt{
+        color: #FF5722;
     }
 
 /* -------------------------- Aside */
