@@ -1,10 +1,14 @@
 /* -------------------------- Basics */
 
+    html{
+        overflow-x: hidden !important;
+    }
+
     body {
         font-family: 'Kaisei Tokumin', serif;
         line-height: 150%;
         margin: 0;
-        overflow-x: hidden;
+        overflow-x: hidden !important;
         /* position: relative; */
     }
         
@@ -123,6 +127,7 @@
         font-size: 13px;
         line-height: 140%;
         z-index: -1;
+        margin: 5rem 4rem;
     }
     .perfil{
         /* background-color: gray; */
@@ -229,7 +234,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-        display: block;
+        display: none;
     }
 
 
@@ -362,20 +367,9 @@
         opacity: 1;
     }
 
-/* --------------- MEDIA QUERIES */
+/* --------------------------------------------------------------- MEDIA QUERIES */
 
-@media screen and (max-width:991px){
-
-    aside{
-        display: none;
-    }
-}
 @media screen and (max-width:767px) {
-
-    /* *{
-        margin: 0;
-        padding: 0;
-    } */
 
     /* ------- */
 
@@ -413,10 +407,37 @@
         right: auto; */
         display: none;
     }
+    aside{
+        display: none;
+    }
+    .perfil-sm{
+        display: block;
+    }
  }
 
  @media screen and (min-width:992px) {
-    .perfil-sm{
+    aside{
+        margin: 5rem 2rem;
+    }
+ }
+@media screen and (max-width:991px){ 
+    aside{
+        /* display: none; */
+        margin:0;
+        padding: 5%;
+    }
+ }
+
+@media screen and (max-width:1023px){
+    header{
         display: none;
     }
+    .proyectos{
+        display: none;
+    }
+}
+ @media screen and (min-width:1200px){
+     aside{
+         right: 5%;
+     }
  }
