@@ -6,12 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Andrea Ruiz | Diseñador UI/UX</title>
+    <link rel="icon" type="image/png" href="assets/img-ui/favicon.png"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/styles-ui.css">
+    <style>
+        .ux-ui{
+            min-height: 700px;
+        }
+    </style>
 </head>
 
 <body>
@@ -32,9 +38,13 @@
 
         <div class="item skills">
             <div class="perfil"></div>
-            <h3>Andrea Ruiz | UI/UX</h3>
+            <h3 class="mb-0">Andrea Ruiz | UI/UX</h3>
+            <h5 class="mg-0"><i class="fas fa-map-marker-alt"></i> Pachuca, Hidalgo.</h5>
             <p class="perfil-info txt-secundario">
-                🎮 Gamer veterana. Me gusta aprender cosas.
+                <!-- <i class="fas fa-map-marker-alt"></i> Pachuca, Hidalgo.
+                <br>
+                👩🏻‍💻  -->
+                Me gusta aprender cosas.
             </p>
             <hr>
             <ul class="skills-list ui-list">
@@ -65,7 +75,7 @@
         
     </aside>
 
-    <section class="contenedor principal">
+    <section class="contenedor principal fade">
 
         <div class="item acerca">
             <div class="perfil-sm"></div>
@@ -80,7 +90,7 @@
                 para redes sociales y de recursos web que incluían ilustraciones, diseño de elementos UI y contenido
                 audiovisual, así como apoyar en el desarrollo y mantenimiento de los productos de la empresa.</p>
             
-            <p>Actualmente estoy cursando una certificación profesional de Diseño UX de Google.</p>
+            <p>Actualmente estoy por terminar de cursar una certificación profesional de Google sobre Diseño UX .</p>
 
         </div>
 
@@ -110,8 +120,8 @@
                 <div class="subgrupo-habilidades">
                     <h5>Idiomas</h5>
                     <ul class="skills-list lenguaje-list">
-                        <li>Español <span class="nivel">Nativo</span></li>
-                        <li>Inglés <span class="nivel">Intermedio</span></li>
+                        <li>🇲🇽 Español <span class="nivel">Nativo</span></li>
+                        <li>🇬🇧 Inglés <span class="nivel">Intermedio</span></li>
                     </ul>
                 </div>
             </div>
@@ -120,6 +130,8 @@
         <div class="item habilidades">
             <h5>OTRAS HABILIDADES</h5>
             <ul class="tags-list">
+                <li>Diseño responsivo</li>
+                <li>User Centered Design</li>
                 <li>Ilustración</li>
                 <li>Buena ortografía y redacción</li>
                 <li>Experiencia en trabajo remoto</li>
@@ -144,7 +156,8 @@
     <div class="bg-1">
         <div class="layer-1"></div>
     </div>
-    <section id="proyectos" class="proyectos">
+
+    <section id="proyectos" class="proyectos fade">
         <!-- <h3>Proyectos</h3> -->
         <div class="proyecto-1">
             <div class="bg-if layer"></div>
@@ -155,6 +168,12 @@
                 <a class="btn tx-if" href="https://if-bot.com" target="_blank">Visitar IF</a>
             </div>
             <img src="assets/img-ui/iphone-if.png" alt="" class="mockup-if">
+        </div>
+        <div class="detalle-proyecto detalle-if">
+            <img class="main-if" src="assets/img-ui/Dispositivos-IF-Mockup-actualizado.png">
+            <div class="mg-auto">
+                <p>Me encargué del diseño y desarrollo de branding, guía de estilos, desarrollo de recursos web, creación e implementación de estructura HTML y hojas de estilos CSS, desarrollo de algunas funcionalidades de los modelos a través de JavaScript, revisión y redacción de textos, contenido para redes sociales y contenido audiovisuales, así como su mantenimiento.</p>
+            </div>
         </div>
         
         <div class="proyecto-2">
@@ -167,12 +186,22 @@
                 <a class="btn tx-litterae" href="https://litterae.io" target="_blank">Visitar Litterae</a>
             </div>
         </div>
+        <div class="detalle-proyecto detalle-litterae">
+            <div class="mg-auto">
+                <p>Estuve involucrada en el desarrollo del diseño del concepto, guía de estilos, desarrollo de recursos visuales y audiovisuales, optimización de estructura HTML y creación de hojas estilos CSS. </p>
+            </div>
+            <div>
+                <img class="main-litterae" src="assets/img-ui/litterae-main.png">
+            </div>
+        </div>
 
         
         
     </section>
 
-    <!-- <section id="ux-ui" class="contenedor ux-ui"></section> -->
+    <!-- <section id="ux-ui" class="contenedor ux-ui">
+        <h3>UX</h3>
+    </section> -->
 
     <footer id="contacto">
         <div class="cosa">
