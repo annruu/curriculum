@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andrea Ruiz | Diseño</title>
+    <meta name="description" content="Andrea Ruiz Curriculum Vitae" />
+    <meta name="twitter:card" value="Andrea Ruiz Curriculum Vitae">
+    <meta property="og:title" content="Andrea Ruiz Curriculum Vitae" />
+    <meta property="og:type" content="Andrea Ruiz Curriculum Vitae" />
+    <meta property="og:url" content="https://annruu.github.io/curriculum/design.html" />
+    <meta property="og:image" content="https://annruu.github.io/curriculum/assets/img-ui/cvAn.png" />
+    <meta property="og:description" content="Andrea Ruiz Curriculum Vitae" />
+    <link rel="icon" type="image/png" href="assets/img-ui/favicon.png"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/styles-design.css?v=3">
+    
+    <style>
+        .ux-ui{
+            min-height: 700px;
+        }
+        .galeria{
+            padding: 2rem 10%;
+            background-color: white;
+        }
+        .contenedor-galeria{
+            display: grid;
+            gap: 1rem;
+            /* grid-auto-rows: 22rem; */
+            grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+            margin-bottom: 5rem;
+        }
+        .card{
+            /* background-color: lightgray; */
+            position: relative;
+        }
+        .imagen{
+            background-color: salmon;
+            width: 20px;
+            height: 20px;
+        }
+        .p-img{
+            width: 100%;
+            transition: 0.3s ease all;
+            /* cursor: pointer; Descomentar cuando se puedan seleccionar las imágenes*/
+            vertical-align: middle;
+        }
+        /* .p-img:hover {
+          opacity: 0.7; Descomentar cuando se puedan seleccionar las imágenes
+        } */
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <!-- <div class="logo">LOGO</div> -->
+            <ul class="menu">
+              <li><a href="#">Inicio</a></li>
+              <li><a href="#proyectos">Proyectos</a></li>
+              <!-- <li><a href="#ux-ui">UI/UX</a></li> -->
+              <li><a href="#contacto">Contacto</a></li>
+            </ul>
+          </nav>
+    </header>
+
+    <aside class="sticky skills">
+
+        <div class="item skills">
+            <div class="perfil"></div>
+            <h3 class="mb-0">Andrea Ruiz <br> Diseño gráfico - UI/UX</h3>
+            <h5 class="mg-0"><i class="fas fa-map-marker-alt"></i> Pachuca, Hidalgo.</h5>
+            <p class="perfil-info txt-secundario">
+                <!-- <i class="fas fa-map-marker-alt"></i> Pachuca, Hidalgo.
+                <br>
+                👩🏻‍💻  -->
+                Me gusta aprender cosas.
+            </p>
+            <hr>
+            <ul class="skills-list ui-list">
+                <li class="li-enfasis">Herramientas</li>
+                <li class="txt-secundario"><i class="ico fab fa-figma"></i>Figma</li>
+                <li class="txt-secundario"><i class="ico fab fa-html5"></i>HTML5</li>
+                <li class="txt-secundario"><i class="ico fab fa-css3-alt"></i>CSS3</li>
+                <li class="txt-secundario"><i class="ico fab fa-js-square"></i>JavaScript</li>
+                <li class="txt-secundario"><i class="ico fab fa-bootstrap"></i>Bootstrap</li>
+                <li class="txt-secundario"><i class="ico fab fa-node-js"></i>Node.js</li>
+                <li class="txt-secundario"><i class="ico fab fa-git-alt"></i></i>GIT</li>
+            <!-- </ul>
+            <hr>
+            <ul class="skills-list diseño-list">
+                <li class="li-enfasis">Diseño Gráfico</li> -->
+                <li class="txt-secundario"><img class="ico ai">Adobe Illustrator</li>
+                <li class="txt-secundario"><img class="ico ps">Adobe Photoshop</li>
+                <li class="txt-secundario"><img class="ico pr">Adobe Premiere</li>
+            </ul>
+            <hr>
+            
+            <ul class="skills-list lenguaje-list">
+                <li class="li-enfasis">Idiomas</li>
+                <li class="txt-secundario">🇲🇽 Español</li>
+                <li class="txt-secundario">🇬🇧 Inglés</li>
+            </ul>
+        </div>
+        
+    </aside>
+
+    <section class="contenedor principal fade">
+
+        <div class="item acerca">
+            <div class="perfil-sm"></div>
+            <h1>Andrea Ruiz | Diseño gráfico - UI/UX</h1>
+        
+            <p>Desde que terminé mis estudios, orienté mi carrera hacia el Diseño Web. Realicé mi servicio social generando
+                recursos web y aprendiendo HTML, CSS y Javascript. Al finalizar mi servicio social trabajé en CIGE México,
+                una Startup enfocada al sector tecnológico desde 2015 a 2021.</p>
+
+            <h3>Experiencia</h3>
+            <p>Durante 6 años, mis actividades fueron orientadas al diseño de la marca y sus productos, al diseño de contenido
+                para redes sociales y de recursos web que incluían ilustraciones, diseño de elementos UI y contenido
+                audiovisual, así como apoyar en el desarrollo y mantenimiento de los productos de la empresa.</p>
+            
+            <p>Actualmente estoy por terminar de cursar una certificación profesional de Google sobre Diseño UX .</p>
+
+        </div>
+
+        <div class="item">
+            <h3>Habilidades</h3>
+            <div class="grupo-habilidades">
+                <div class="subgrupo-habilidades">
+                    <h5>UI/UX</h5>
+                    <ul class="skills-list ui-list">
+                        <li><i class="ico fab fa-figma"></i>Figma</li>
+                        <li><i class="ico fab fa-html5"></i>HTML5</li>
+                        <li><i class="ico fab fa-css3-alt"></i>CSS3</li>
+                        <li><i class="ico fab fa-js-square"></i>JavaScript</li>
+                        <li><i class="ico fab fa-bootstrap"></i>Bootstrap</li>
+                        <li><i class="ico fab fa-node-js"></i>Node.js</li>
+                        <li><i class="ico fab fa-git-alt"></i></i>GIT</li>
+                    </ul>
+                </div>
+                <div class="subgrupo-habilidades">
+                    <h5>Diseño Gráfico</h5>
+                    <ul class="skills-list diseño-list">
+                        <li><img class="ico ai">Adobe Illustrator</li>
+                        <li><img class="ico ps">Adobe Premiere</li>
+                        <li><img class="ico pr">Adobe After Effects</li>
+                    </ul>
+                </div>
+                <div class="subgrupo-habilidades">
+                    <h5>Idiomas</h5>
+                    <ul class="skills-list lenguaje-list">
+                        <li>🇲🇽 Español <span class="nivel">Nativo</span></li>
+                        <li>🇬🇧 Inglés <span class="nivel">Intermedio</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="item habilidades">
+            <h5>OTRAS HABILIDADES</h5>
+            <ul class="tags-list">
+                <li>Diseño responsivo</li>
+                <li>User Centered Design</li>
+                <li>Ilustración</li>
+                <li>Buena ortografía y redacción</li>
+                <li>Experiencia en trabajo remoto</li>
+                <li>Atención a los detalles</li>
+                <li>Buena comunicación</li>
+            <!-- </ul>
+            <h5>VALORES</h5>
+            <ul class="tags-list"> -->
+                <li>Honestidad</li>
+                <li>Actitud positiva</li>
+                <li>Responsabilidad</li>
+                <li>Lealtad</li>
+                <li>Colaboración</li>
+                <li>Trabajo en equipo</li>
+                <li>Aprendizaje rápido</li>
+                <li>Dispuesta al aprendizaje continuo</li>
+            </ul>
+        </div>
+
+    </section>
+
+    <div class="bg-1">
+        <div class="layer-1"></div>
+    </div>
+
+    <section id="proyectos" class="proyectos fade">
+        <!-- <h3>Proyectos</h3> -->
+        <div class="proyecto-1">
+            <div class="bg-if layer"></div>
+            <div class="descripcion">
+                <!-- <h3>IF</h3> -->
+                <img src="assets/img-ui/logo-if.svg" alt="" class="logo">
+                <p>Participé en el desarrollo de IF, una plataforma dedicada a brindar asesoría financiera virtual a emprendedores y empresarios.</p>
+                <a class="btn tx-if" href="https://if-bot.com" target="_blank">Visitar IF</a>
+            </div>
+            <img src="assets/img-ui/iphone-if.png" alt="" class="mockup-if">
+        </div>
+        <div class="detalle-proyecto detalle-if">
+            <img class="main-if" src="assets/img-ui/Dispositivos-IF-Mockup-actualizado.png">
+            <div class="mg-auto">
+                <p>Me encargué del diseño y desarrollo de branding, guía de estilos, desarrollo de recursos web, creación e implementación de estructura HTML y hojas de estilos CSS, desarrollo de algunas funcionalidades de los modelos a través de JavaScript, revisión y redacción de textos, contenido para redes sociales y contenido audiovisuales, así como su mantenimiento.</p>
+            </div>
+        </div>
+        
+        <div class="proyecto-2">
+            <img class="bg-litterae" src="assets/img-ui/proyecto2.svg" alt="">
+            <div class="descripcion">
+                <!-- <h3>Litterae</h3> -->
+                <img src="assets/img-ui/logo-litterae.svg" alt="" class="logo">
+                <p>También participé en el desarrollo de Litterae, una plataforma dedicada a la consulta de referencias laborales de posibles colaboradores que las
+                    empresas estén interesadas en contratar.</p>
+                <a class="btn tx-litterae" href="https://litterae.io" target="_blank">Visitar Litterae</a>
+            </div>
+        </div>
+        <div class="detalle-proyecto detalle-litterae">
+            <div class="mg-auto">
+                <p>Estuve involucrada en el desarrollo del diseño del concepto, guía de estilos, desarrollo de recursos visuales y audiovisuales, optimización de estructura HTML y creación de hojas estilos CSS. </p>
+            </div>
+            <div>
+                <img class="main-litterae" src="assets/img-ui/litterae-main.png">
+            </div>
+        </div>
+
+        
+        
+    </section>
+
+    <!-- <section id="ux-ui" class="contenedor ux-ui">
+        <h3>UX</h3>
+    </section> -->
+
+    <!-- GALERÍA -->
+    <section class="galeria">
+        <h2>Portafolio</h2>
+
+        <h3>UI/UX</h3>
+        <div class="contenedor-galeria">
+            <article class="card">
+                <img id="myImg" class="p-img" src="assets/img-ui/UIUX-img1.png" alt="Imagen-portafolio">
+            </article>
+            <article class="card">
+                <img id="myImg" class="p-img" src="assets/img-ui/UIUX-img-mockup-2.jpg" alt="Imagen-portafolio">
+            </article>
+            <article class="card">
+                <img id="myImg" class="p-img" src="assets/img-ui/UIUX-img-mockup-3.jpg" alt="Imagen-portafolio">
+            </article>
+            <article class="card">
+                <img id="myImg" class="p-img" src="assets/img-ui/UIUX-img-mockup-4.jpg" alt="Imagen-portafolio">
+            </article>
+            <article class="card">
+                <img id="myImg" class="p-img" src="assets/img-ui/UIUX-img-mockup-1.jpg" alt="Imagen-portafolio">
+            </article>
+            <!-- <article class="card">
+                <img id="myImg" class="p-img" src="" alt="Imagen-portafolio">
+            </article>
+            <article class="card">
+                <img id="myImg" class="p-img" src="" alt="Imagen-portafolio">
+            </article>
+            <article class="card">
+                <img id="myImg" class="p-img" src="" alt="Imagen-portafolio">
+            </article>
+            <article class="card">
+                <img id="myImg" class="p-img" src="" alt="Imagen-portafolio">
+            </article>
+            <article class="card">
+                <img id="myImg" class="p-img" src="" alt="Imagen-portafolio">
+            </article>
+            <article class="card">
+                <img id="myImg" class="p-img" src="" alt="Imagen-portafolio">
+            </article> -->
+        </div>
+
+        <h3>Contenido visual</h3>
+        <div class="contenedor-galeria">
+
+            <article class="card">
+                <img id="myImg" class="p-img" src="https://annruu.github.io/curriculum/assets/images/Post-NegocioAFlote.jpg" alt="Imagen-portafolio">
+            </article>
+
+            <article class="card">
+                <img id="myImg" class="p-img" src="https://annruu.github.io/curriculum/assets/images/Post2-GatoPolo.jpg" alt="Imagen-portafolio">
+            </article>
+
+            <article class="card">
+                <img id="myImg" class="p-img" src="https://annruu.github.io/curriculum/assets/images/vector-45.jpg" alt="Imagen-portafolio">
+            </article>
+
+            <article class="card">
+                <img id="myImg" class="p-img" src="https://annruu.github.io/curriculum/assets/images/vector-46.jpg" alt="Imagen-portafolio">
+            </article>
+
+            <article class="card">
+                <img id="myImg" class="p-img" src="https://annruu.github.io/curriculum/assets/images/Post-Litterae-10.jpg" alt="Imagen-portafolio">
+            </article>
+
+            <article class="card">
+                <img id="myImg" class="p-img" src="https://annruu.github.io/curriculum/assets/images/Post-Litterae-20.jpg" alt="Imagen-portafolio">
+            </article>
+
+            <article class="card">
+                <img id="myImg" class="p-img" src="https://annruu.github.io/curriculum/assets/images/Posts-IF-2021-21.jpg" alt="Imagen-portafolio">
+            </article>
+
+            <article class="card">
+                <img id="myImg" class="p-img" src="https://annruu.github.io/curriculum/assets/images/Posts-IF-2021-24.jpg" alt="Imagen-portafolio">
+            </article>
+
+            <article class="card">
+                <img id="myImg" class="p-img" src="https://annruu.github.io/curriculum/assets/images/Posts-IF-2021-5.jpg" alt="Imagen-portafolio">
+            </article>
+
+            <article class="card">
+                <img id="myImg" class="p-img" src="https://annruu.github.io/curriculum/assets/images/Post-covid3.jpg" alt="Imagen-portafolio">
+            </article>
+
+            <!-- <article class="card">
+                <img id="myImg" class="p-img" src="https://annruu.github.io/curriculum/assets/images/vector-31.jpg" alt="Imagen-portafolio">
+            </article>
+
+            <article class="card">
+                <img id="myImg" class="p-img" src="https://annruu.github.io/curriculum/assets/images/vector-10.jpg" alt="Imagen-portafolio">
+            </article>
+
+            <article class="card">
+                <img id="myImg" class="p-img" src="https://annruu.github.io/curriculum/assets/images/vector-44.jpg" alt="Imagen-portafolio">
+            </article> -->
+
+            <!-- <article class="card">
+                <img id="myImg" class="p-img" src="" alt="Imagen-portafolio">
+            </article> -->
+
+
+            <!-- Estructura original para modal
+            <article class="card">
+                <img id="myImg" class="p-img" src="https://annruu.github.io/curriculum/assets/images/girl-an-3.jpg" alt="Image_wallpaper">
+                <div id="myModal" class="modal">
+                    <span class="close">×</span>
+                    <img src="https://annruu.github.io/curriculum/assets/images/girl-an-3.jpg" class="modal-content" id="img01">
+                </div>
+            </article> -->
+
+            <div id="myModal" class="modal animate__animated">
+                <span class="close">×</span>
+                <img id="img-container" class="m-img modal-content">
+            </div>
+
+        </div>
+        <h3>Ilustración</h3>
+        <div class="contenedor-galeria">
+
+            <article class="card">
+                <img id="myImg" class="p-img" src="https://annruu.github.io/curriculum/assets/images/vector-29.jpg" alt="Imagen-portafolio">
+            </article>
+
+            <article class="card">
+                <img id="myImg" class="p-img" src="https://annruu.github.io/curriculum/assets/images/vector-35.jpg" alt="Imagen-portafolio">
+            </article>
+
+            <article class="card">
+                <img id="myImg" class="p-img" src="https://annruu.github.io/curriculum/assets/images/vector-33.jpg" alt="Imagen-portafolio">
+            </article>
+
+            <article class="card">
+                <img id="myImg" class="p-img" src="https://annruu.github.io/curriculum/assets/images/vector-30.jpg" alt="Imagen-portafolio">
+            </article>
+
+            <article class="card">
+                <img id="myImg" class="p-img" src="https://annruu.github.io/curriculum/assets/images/vector-5.jpg" alt="Imagen-portafolio">
+            </article>
+
+            <article class="card">
+                <img id="myImg" class="p-img" src="https://annruu.github.io/curriculum/assets/images/vector-6.jpg" alt="Imagen-portafolio">
+            </article>
+
+            <article class="card">
+                <img id="myImg" class="p-img" src="https://annruu.github.io/curriculum/assets/images/vector-15.jpg" alt="Imagen-portafolio">
+            </article>
+
+            <article class="card">
+                <img id="myImg" class="p-img" src="https://annruu.github.io/curriculum/assets/images/vector-21.jpg" alt="Imagen-portafolio">
+            </article>
+
+            <article class="card">
+                <img id="myImg" class="p-img" src="https://annruu.github.io/curriculum/assets/images/vector-22.jpg" alt="Imagen-portafolio">
+            </article>
+
+            <article class="card">
+                <img id="myImg" class="p-img" src="https://annruu.github.io/curriculum/assets/images/Kiss%20Kiss%20Kiss900px.jpg" alt="Imagen-portafolio">
+            </article>
+
+            <article class="card">
+                <img id="myImg" class="p-img" src="https://annruu.github.io/curriculum/assets/images/vector-3.jpg" alt="Imagen-portafolio">
+            </article>
+
+            <article class="card">
+                <img id="myImg" class="p-img" src="https://annruu.github.io/curriculum/assets/images/oc-4.jpg" alt="Imagen-portafolio">
+            </article>
+
+            <article class="card">
+                <img id="myImg" class="p-img" src="https://annruu.github.io/curriculum/assets/images/oc-5.jpg" alt="Imagen-portafolio">
+            </article>
+
+            <article class="card">
+                <img id="myImg" class="p-img" src="https://annruu.github.io/curriculum/assets/images/OCWania.jpg" alt="Imagen-portafolio">
+            </article>
+
+            <article class="card">
+                <img id="myImg" class="p-img" src="https://annruu.github.io/curriculum/assets/images/girl-an-3.jpg" alt="Imagen-portafolio">
+            </article>
+
+            <article class="card">
+                <img id="myImg" class="p-img" src="https://annruu.github.io/curriculum/assets/images/girl-an-4.jpg" alt="Imagen-portafolio">
+            </article>
+            
+        </div>
+    </section>
+
+    <footer id="contacto">
+        <div class="cosa">
+            <h4>Andrea Ruiz</h4>
+        </div>
+        <div class="cosa">
+            <p><a class="foot-link" href="https://my.indeed.com/p/andrear-gne5ob5"><i class="far fa-file-alt"></i> Indeed</a></p>
+            <p><a class="foot-link" href="https://wa.me/527712334066" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a></p>
+            <p><a class="foot-link" href="mailto:annn.ruuu@gmail.com"><i class="far fa-envelope"></i> Envíame un e-mail</a></p>
+        </div>
+
+        <a href="#" class="btn-up"><i class="fas fa-caret-up"></i></a>
+
+    </footer>
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <!-- <script type='text/javascript' src="assets/design.js"></script> -->
+
+</body>
+
+</html>
