@@ -90,8 +90,10 @@ header{
     position: fixed; */
     width: 100vw;
     top: 0;
-    /* background-color: #fff; */
+    background-color: #fff;
     font-family: 'Roboto', sans-serif;
+    position: fixed;
+    z-index: 2;
 }
 
 .menu{
@@ -642,3 +644,45 @@ aside{
 .animate__animated.animate__fadeOut {
     --animate-duration: 0.3s !important;
   }
+
+
+  .ux-ui{
+    min-height: 700px;
+}
+.galeria{
+    padding: 2rem 10%;
+    background-color: white;
+}
+.contenedor-galeria{
+    display: grid;
+    gap: 1rem;
+    /* grid-auto-rows: 22rem; */
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    margin-bottom: 5rem;
+}
+.card{
+    /* background-color: lightgray; */
+    position: relative;
+    margin: auto;
+}
+.imagen{
+    background-color: salmon;
+    width: 20px;
+    height: 20px;
+}
+.p-img{
+    width: 100%;
+    transition: 0.3s ease all;
+    /* cursor: pointer; Descomentar cuando se puedan seleccionar las imágenes*/
+    vertical-align: middle;
+}
+/* .p-img:hover {
+  opacity: 0.7; Descomentar cuando se puedan seleccionar las imágenes
+} */
+.ui-img{
+    max-width: 400px;
+    /* transform: skewX(5deg); */
+    box-shadow: 0px 10px 33px -7px rgb(88 82 128 / 57%);
+    -webkit-box-shadow: 0px 10px 33px -7px rgb(88 82 128 / 57%);
+    -moz-box-shadow: 0px 10px 33px -7px rgba(88,82,128,0.57);
+}
