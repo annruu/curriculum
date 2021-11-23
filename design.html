@@ -39,6 +39,7 @@
         .card{
             /* background-color: lightgray; */
             position: relative;
+            margin: auto;
         }
         .imagen{
             background-color: salmon;
@@ -54,6 +55,13 @@
         /* .p-img:hover {
           opacity: 0.7; Descomentar cuando se puedan seleccionar las imágenes
         } */
+        .ui-img{
+            max-width: 400px;
+            transform: skewX(5deg);
+            box-shadow: -10px 10px 33px -7px rgb(88 82 128 / 57%);
+            -webkit-box-shadow: -10px 10px 33px -7px rgb(88 82 128 / 57%);
+            -moz-box-shadow: -10px 10px 33px -7px rgba(88,82,128,0.57);
+        }
     </style>
 </head>
 
@@ -75,7 +83,7 @@
 
         <div class="item skills">
             <div class="perfil"></div>
-            <h3 class="mb-0">Andrea Ruiz <br> Diseño gráfico - UI/UX</h3>
+            <h3 class="mb-0">Andrea Ruiz <br> Diseño gráfico - UI</h3>
             <h5 class="mg-0"><i class="fas fa-map-marker-alt"></i> Pachuca, Hidalgo.</h5>
             <p class="perfil-info txt-secundario">
                 <!-- <i class="fas fa-map-marker-alt"></i> Pachuca, Hidalgo.
@@ -116,18 +124,16 @@
 
         <div class="item acerca">
             <div class="perfil-sm"></div>
-            <h1>Andrea Ruiz | Diseño gráfico - UI/UX</h1>
+            <h1>Andrea Ruiz | Diseño gráfico - UI</h1>
         
             <p>Desde que terminé mis estudios, orienté mi carrera hacia el Diseño Web. Realicé mi servicio social generando
                 recursos web y aprendiendo HTML, CSS y Javascript. Al finalizar mi servicio social trabajé en CIGE México,
-                una Startup enfocada al sector tecnológico desde 2015 a 2021.</p>
+                una Startup enfocada al sector tecnológico desde 2015 a 2021 en donde desempeñé actividades de Diseño gráfico y adquirí y desarrollé habilidades de Diseño de Interfaz de Usuario y Experiencia de Usuario.</p>
 
             <h3>Experiencia</h3>
             <p>Durante 6 años, mis actividades fueron orientadas al diseño de la marca y sus productos, al diseño de contenido
-                para redes sociales y de recursos web que incluían ilustraciones, diseño de elementos UI y contenido
+                para redes sociales y de recursos web que incluían ilustraciones, diseño UI y contenido
                 audiovisual, así como apoyar en el desarrollo y mantenimiento de los productos de la empresa.</p>
-            
-            <p>Actualmente estoy por terminar de cursar una certificación profesional de Google sobre Diseño UX .</p>
 
         </div>
 
@@ -209,7 +215,7 @@
         <div class="detalle-proyecto detalle-if">
             <img class="main-if" src="assets/img-ui/Dispositivos-IF-Mockup-actualizado.png">
             <div class="mg-auto">
-                <p>Me encargué del diseño y desarrollo de branding, guía de estilos, desarrollo de recursos web, creación e implementación de estructura HTML y hojas de estilos CSS, desarrollo de algunas funcionalidades de los modelos a través de JavaScript, revisión y redacción de textos, contenido para redes sociales y contenido audiovisuales, así como su mantenimiento.</p>
+                <p>Me encargué del diseño y desarrollo de branding, UI, desarrollo de recursos web, creación e implementación de estructura HTML y hojas de estilos CSS, desarrollo de algunas funcionalidades de los modelos a través de JavaScript, revisión y redacción de textos, contenido para redes sociales y contenido audiovisuales, así como su mantenimiento.</p>
             </div>
         </div>
         
@@ -225,7 +231,7 @@
         </div>
         <div class="detalle-proyecto detalle-litterae">
             <div class="mg-auto">
-                <p>Estuve involucrada en el desarrollo del diseño del concepto, guía de estilos, desarrollo de recursos visuales y audiovisuales, optimización de estructura HTML y creación de hojas estilos CSS. </p>
+                <p>Estuve involucrada en el desarrollo del diseño del concepto, UI, desarrollo de recursos visuales y audiovisuales, optimización de estructura HTML y creación de hojas estilos CSS. </p>
             </div>
             <div>
                 <img class="main-litterae" src="assets/img-ui/litterae-main.png">
@@ -247,19 +253,28 @@
         <h3>UI/UX</h3>
         <div class="contenedor-galeria">
             <article class="card">
-                <img id="myImg" class="p-img" src="assets/img-ui/UIUX-img1.png" alt="Imagen-portafolio">
+                <img id="myImg" class="p-img" src="assets/img-ui/UIUX-img-mockup-ful.jpg" alt="Imagen-portafolio">
+            </article>
+            <article class="card">
+                <img id="myImg" class="p-img" src="assets/img-ui/UIUX-img-mockup-1.jpg" alt="Imagen-portafolio">
+            </article>
+            <article class="card">
+                <img id="myImg" class="p-img" src="assets/img-ui/UIUX-img-mockup-if.jpg" alt="Imagen-portafolio">
             </article>
             <article class="card">
                 <img id="myImg" class="p-img" src="assets/img-ui/UIUX-img-mockup-2.jpg" alt="Imagen-portafolio">
+            </article>
+            <article class="card">
+                <img id="myImg" class="p-img" src="assets/img-ui/UIUX-img-mockup-if2.jpg" alt="Imagen-portafolio">
+            </article>
+            <article class="card">
+                <img id="myImg" class="p-img" src="assets/img-ui/UIUX-img-mockup-0.jpg" alt="Imagen-portafolio">
             </article>
             <article class="card">
                 <img id="myImg" class="p-img" src="assets/img-ui/UIUX-img-mockup-3.jpg" alt="Imagen-portafolio">
             </article>
             <article class="card">
                 <img id="myImg" class="p-img" src="assets/img-ui/UIUX-img-mockup-4.jpg" alt="Imagen-portafolio">
-            </article>
-            <article class="card">
-                <img id="myImg" class="p-img" src="assets/img-ui/UIUX-img-mockup-1.jpg" alt="Imagen-portafolio">
             </article>
             <!-- <article class="card">
                 <img id="myImg" class="p-img" src="" alt="Imagen-portafolio">
@@ -280,6 +295,7 @@
                 <img id="myImg" class="p-img" src="" alt="Imagen-portafolio">
             </article> -->
         </div>
+        <img class="ui-img" src="assets/img-ui/UI-Litterae.svg" alt="Imagen-portafolio">
 
         <h3>Contenido visual</h3>
         <div class="contenedor-galeria">
@@ -395,15 +411,15 @@
                 <img id="myImg" class="p-img" src="https://annruu.github.io/curriculum/assets/images/vector-22.jpg" alt="Imagen-portafolio">
             </article>
 
-            <article class="card">
+            <!-- <article class="card">
                 <img id="myImg" class="p-img" src="https://annruu.github.io/curriculum/assets/images/Kiss%20Kiss%20Kiss900px.jpg" alt="Imagen-portafolio">
-            </article>
+            </article> -->
 
             <article class="card">
                 <img id="myImg" class="p-img" src="https://annruu.github.io/curriculum/assets/images/vector-3.jpg" alt="Imagen-portafolio">
             </article>
 
-            <article class="card">
+            <!-- <article class="card">
                 <img id="myImg" class="p-img" src="https://annruu.github.io/curriculum/assets/images/oc-4.jpg" alt="Imagen-portafolio">
             </article>
 
@@ -421,7 +437,7 @@
 
             <article class="card">
                 <img id="myImg" class="p-img" src="https://annruu.github.io/curriculum/assets/images/girl-an-4.jpg" alt="Imagen-portafolio">
-            </article>
+            </article> -->
             
         </div>
     </section>
