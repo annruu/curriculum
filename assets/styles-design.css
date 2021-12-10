@@ -12,6 +12,7 @@ body {
     line-height: 150%;
     margin: 0;
     overflow-x: hidden !important;
+    color: #2F1847 !important;
     /* position: relative; */
 }
     
@@ -25,11 +26,15 @@ small {
 
 hr{
     border-style: none;
-    border-top: 1px solid lightgray;
+    border-top: 1px solid #e6e6fa;
 }
 
 a{
     text-decoration: none;
+}
+
+.lighter{
+    opacity: 0.7;
 }
 
 .mg-auto{
@@ -68,11 +73,29 @@ a{
     font-family: 'Roboto', sans-serif;
     font-size: 0.6rem;
     /* background-color: #925bf3; */
-    background-color: #000;
+    background-color: #2F1847;
     color: #fff;
     border-radius: 10px;
     padding: 4px 10px;
     vertical-align: middle;
+}
+.highlight{
+    background-color: #925bf3;
+    color: #fff;
+    padding: 2px 4px;
+}
+.highlight-discrete{
+    background-color: #e6e6fa;
+    padding: 2px 4px;
+}
+
+.link-menu{
+    color: #925bf3 !important;
+    transition: 0.3s ease all;
+    font-weight: 400;
+}
+.link-menu:hover{
+    color: #2F1847 !important;
 }
 
 /* .fade{
@@ -153,8 +176,10 @@ aside{
     margin: 5rem 4rem;
 }
 .perfil{
-    /* background-color: gray; */
-    background-image: url("img-ui/AndreaRuiz.png");
+    /* background-color: gray;
+    background-image: url("img-ui/AndreaRuiz.png"); */
+    background-image: url("images/An-Ru.png");
+    border-radius: 100px;
     height: 120px;
     width: 120px;
     margin: 0 auto;
@@ -222,7 +247,8 @@ aside{
      font-family: 'Roboto', sans-serif;
      font-size: 11px;
      margin: 2px 0px;
-     background-color: #2962FF;
+     /* background-color: #2962FF; */
+     background-color: #645bf3;
      color: white;
      padding: 2px 15px;
      border-radius: 15px;
