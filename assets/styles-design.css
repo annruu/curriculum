@@ -273,6 +273,7 @@ aside{
  .perfil-sm{
     /* background-image: url("img-ui/AndreaRuiz.png"); */
     background-image: url("images/An-Ru.png");
+    border-radius: 100px;
     height: 120px;
     width: 120px;
     background-position: center;
