@@ -271,7 +271,8 @@ aside{
  }
 
  .perfil-sm{
-    background-image: url("img-ui/AndreaRuiz.png");
+    /* background-image: url("img-ui/AndreaRuiz.png"); */
+    background-image: url("images/An-Ru.png");
     height: 120px;
     width: 120px;
     background-position: center;
