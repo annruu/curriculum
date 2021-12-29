@@ -749,8 +749,8 @@ aside{
         display: block;
         position: absolute;
         z-index: 35;
-        right: 25px;
-        top: 5px;
+        right: 10px;
+        top: 6px;
         font-size: 1.3rem;
     }
     .menu{
@@ -759,5 +759,6 @@ aside{
     }
     .menu li{
         display: block;
+        padding: 10px !important;
     }
 }
