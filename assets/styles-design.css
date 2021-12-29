@@ -98,6 +98,20 @@ a{
     color: #2F1847 !important;
 }
 
+.morado{
+    color: #925bf3 !important;
+}
+
+.lenguaje {
+    background: transparent;
+    border: none;
+    font-size: 14px;
+    padding: 5px 5px 5px 0px;
+    /* 
+    height: 30px;
+    width: 250px; */
+ }
+
 /* .fade{
     opacity: 0;
 } */

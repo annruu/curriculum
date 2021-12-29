@@ -29,10 +29,18 @@
         <nav class="navbar">
             <!-- <div class="logo">LOGO</div> -->
             <ul class="menu">
-              <li><a class="link-menu" href="#">Inicio</a></li>
-              <li><a class="link-menu" href="#proyectos">Proyectos</a></li>
-              <li><a class="link-menu" href="#galeria">Galería</a></li>
-              <li><a class="link-menu" href="#contacto">Contacto</a></li>
+              <li><a id="lang-menu1" class="link-menu" href="#">Inicio</a></li>
+              <li><a id="lang-menu2" class="link-menu" href="#proyectos">Proyectos</a></li>
+              <li><a id="lang-menu3" class="link-menu" href="#galeria">Galería</a></li>
+              <li><a id="lang-menu4" class="link-menu" href="#contacto">Contacto</a></li>
+              <!-- <li><a class="link-menu"><i class="fas fa-globe"></i> EN</a></li> -->
+              <li>
+                <i class="fas fa-globe morado"></i>
+                  <select name="lenguaje" id="lenguaje" class="lenguaje morado">
+                      <option value="ES" selected>ES</option>
+                      <option value="EN">EN</option>
+                  </select>
+                </li>
             </ul>
           </nav>
     </header>
@@ -42,9 +50,9 @@
         <div class="item skills">
             <div class="perfil"></div>
             <!-- <h3 class="mb-0">Andrea Ruiz <br> Diseño gráfico - UI/UX</h3> -->
-            <h3 class="mb-0">Andrea Ruiz <br> Diseño gráfico</h3>
+            <h3 id="lang-aside-title" class="mb-0">Andrea Ruiz <br> Diseño gráfico</h3>
             <h5 class="mg-0 lighter"><i class="fas fa-map-marker-alt"></i> Pachuca, Hidalgo, MX.</h5>
-            <p class="perfil-info txt-secundario">
+            <p id="lang-aside-info" class="perfil-info txt-secundario">
                 <!-- <i class="fas fa-map-marker-alt"></i> Pachuca, Hidalgo.
                 <br>
                 👩🏻‍💻  -->
@@ -52,7 +60,7 @@
             </p>
             <hr>
             <ul class="skills-list ui-list">
-                <li class="li-enfasis">Herramientas</li>
+                <li id="lang-aside-subtitle1" class="li-enfasis">Herramientas</li>
                 <li class="txt-secundario"><i class="ico fab fa-figma"></i>Figma</li>
                 <li class="txt-secundario"><i class="ico fab fa-html5"></i>HTML5</li>
                 <li class="txt-secundario"><i class="ico fab fa-css3-alt"></i>CSS3</li>
@@ -73,9 +81,9 @@
             <hr>
             
             <ul class="skills-list lenguaje-list">
-                <li class="li-enfasis">Idiomas</li>
-                <li class="txt-secundario">🇲🇽 Español</li>
-                <li class="txt-secundario">🇬🇧 Inglés</li>
+                <li id="lang-aside-subtitle2" class="li-enfasis">Idiomas</li>
+                <li id="lang-aside-language1" class="txt-secundario">🇲🇽 Español</li>
+                <li id="lang-aside-language2" class="txt-secundario">🇬🇧 Inglés</li>
             </ul>
         </div>
         
@@ -86,7 +94,7 @@
         <div class="item acerca">
             <div class="perfil-sm"></div>
             <!-- <h1>Andrea Ruiz | Diseño gráfico - UI/UX</h1> -->
-            <h1>Andrea Ruiz | Diseño gráfico</h1>
+            <h1 id="lang-title">Andrea Ruiz | Diseño gráfico</h1>
 
             <!-- <h3>Experiencia</h3>
         
@@ -103,41 +111,37 @@
                 <p>Considero que lo más invaluable es el compromiso y la responsabilidad, es por ello que mi prioridad siempre ha sido 
                     actuar con tales valores en cada acción que tomo.</p> -->
 
-                <p>¡Hola! 👋🏻</p>
-                <p>Soy Diseñadora Gráfico y UI 👩🏻‍💻
-                <br>Siempre me han apasionado los retos en los que pueda dar soluciones visuales funcionales y atractivas.
-                Me encanta ilustrar, es uno de mis pasatiempos.
+                <p id="lang-intro-1">¡Hola! 👋🏻</p>
+                <p id="lang-intro-2">Soy Diseñadora Gráfico y UI 👩🏻‍💻
+                <br>Siempre me han apasionado los retos en los que pueda dar soluciones visuales funcionales y atractivas. Me encanta ilustrar, es uno de mis pasatiempos.
                 <br>Constantemente busco mejorar y desarrollar mis habilidades, actualmente estoy cursando una Certificación de Google en Diseño UX. 
                 <br>Para mí, el compromiso y la responsabilidad son invaluables, por eso mi prioridad siempre ha sido actuar con tales valores en cada acción que tomo.</p>
 
-                <h3>Experiencia</h3>
+                <h3 id="lang-subtitle1">Experiencia</h3>
 
                 <h5 class="lighter"><i class="fas fa-calendar-day"></i> 2015 - 2016</h5>
 
-                <p>Realicé mi servicio social en el Centro de Lenguas de la Universidad Autónoma del Estado de Hidalgo, México, generando
-                    recursos web para la plataforma Make it Real! dedicada a la enseñanza de la Lengua Inglesa.</p>
+                <p id="lang-exp1">Realicé mi servicio social en el Centro de Lenguas de la Universidad Autónoma del Estado de Hidalgo, México, generando recursos web para la plataforma Make it Real! dedicada a la enseñanza de la Lengua Inglesa.</p>
                 
                 <h5 class="lighter"><i class="fas fa-calendar-day"></i> 2016 - 2021</h5>
 
-                <p>Trabajé durante 5 años en CIGE México, una Startup enfocada al sector tecnológico en donde desempeñé actividades 
-                    de Diseño gráfico, además de adquirir y desarrollar habilidades de Diseño de Interfaz de Usuario.</p>
+                <p id="lang-exp2">Trabajé durante 5 años en CIGE México, una Startup enfocada al sector tecnológico en donde desempeñé actividades de Diseño gráfico, además de adquirir y desarrollar habilidades de Diseño de Interfaz de Usuario.</p>
     
-                <p>Mis actividades fueron orientadas al diseño de la imagen de la empresa y sus productos 
+                <p id="lang-exp3">Mis actividades fueron orientadas al diseño de la imagen de la empresa y sus productos 
                     <a class="link-menu" href="https://if-bot.com" target="_blank">IFbot</a> y 
                     <a class="link-menu" href="https://litterae.io" target="_blank">Litterae</a>, al diseño de contenido visual para 
                     redes sociales y de recursos web de cada uno, que incluían <span class="highlight-discrete">ilustraciones</span>, 
                     <span class="highlight-discrete">diseño UI</span>, <span class="highlight-discrete">contenido audiovisual</span> y 
-                    <span class="highlight-discrete">animaciones</span>, así como apoyar en el desarrollo y mantenimiento de los productos de la 
-                    empresa.</p>
+                    <span class="highlight-discrete">animaciones</span>, así como apoyar en el desarrollo y mantenimiento de los productos de la empresa.</p>
 
 
         </div>
 
         <div class="item">
-            <h3>Habilidades</h3>
+            <h3 id="lang-subtitle2">Habilidades</h3>
             <div class="grupo-habilidades">
                 <div class="subgrupo-habilidades">
-                    <h5>UI/UX</h5>
+                    <h5 id="lang-skill-subtitle1">UI/UX</h5>
                     <ul class="skills-list ui-list">
                         <li><i class="ico fab fa-figma"></i>Figma</li>
                         <li><i class="ico fab fa-html5"></i>HTML5</li>
@@ -150,7 +154,7 @@
                     </ul>
                 </div>
                 <div class="subgrupo-habilidades">
-                    <h5>Diseño Gráfico</h5>
+                    <h5 id="lang-skill-subtitle2">Diseño Gráfico</h5>
                     <ul class="skills-list diseño-list">
                         <li><img class="ico ai" src="https://i.imgur.com/6kRvFKg.jpg">Adobe Illustrator</li>
                         <li><img class="ico ps" src="data:image/png;base64,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">Adobe Photoshop</li>
@@ -159,35 +163,35 @@
                     </ul>
                 </div>
                 <div class="subgrupo-habilidades">
-                    <h5>Idiomas</h5>
+                    <h5 id="lang-skill-subtitle3">Idiomas</h5>
                     <ul class="skills-list lenguaje-list">
-                        <li>🇲🇽 Español <span class="nivel">Nativo</span></li>
-                        <li>🇬🇧 Inglés <span class="nivel">Intermedio</span></li>
+                        <li id="lang-skill-lang1">🇲🇽 Español <span class="nivel">Nativo</span></li>
+                        <li id="lang-skill-lang2">🇬🇧 Inglés <span class="nivel">Intermedio</span></li>
                     </ul>
                 </div>
             </div>
         </div>
 
         <div class="item habilidades">
-            <h5>OTRAS HABILIDADES</h5>
+            <h5 id="lang-skill-subtitle4">OTRAS HABILIDADES</h5>
             <ul class="tags-list">
-                <li>Diseño responsivo</li>
-                <li>User Centered Design</li>
-                <li>Creación de wireframes</li>
-                <li>Ilustración</li>
-                <li>Dibujo a mano alzada</li>
-                <li>Buena ortografía y redacción</li>
-                <li>Experiencia en trabajo remoto</li>
-                <li>Atención a los detalles</li>
-                <li>Buena comunicación</li>
-                <li>Honestidad</li>
-                <li>Actitud positiva</li>
-                <li>Responsabilidad</li>
-                <li>Lealtad</li>
-                <li>Colaboración</li>
-                <li>Trabajo en equipo</li>
-                <li>Aprendizaje rápido</li>
-                <li>Dispuesta al aprendizaje continuo</li>
+                <li id="lang-skill-other1">Diseño responsivo</li>
+                <li id="lang-skill-other2">User Centered Design</li>
+                <li id="lang-skill-other3">Creación de wireframes</li>
+                <li id="lang-skill-other4">Ilustración</li>
+                <li id="lang-skill-other5">Dibujo a mano alzada</li>
+                <li id="lang-skill-other6">Buena ortografía y redacción</li>
+                <li id="lang-skill-other7">Experiencia en trabajo remoto</li>
+                <li id="lang-skill-other8">Atención a los detalles</li>
+                <li id="lang-skill-other9">Buena comunicación</li>
+                <li id="lang-skill-other10">Honestidad</li>
+                <li id="lang-skill-other11">Actitud positiva</li>
+                <li id="lang-skill-other12">Responsabilidad</li>
+                <li id="lang-skill-other13">Lealtad</li>
+                <li id="lang-skill-other14">Colaboración</li>
+                <li id="lang-skill-other15">Trabajo en equipo</li>
+                <li id="lang-skill-other16">Aprendizaje rápido</li>
+                <li id="lang-skill-other17">Dispuesta al aprendizaje continuo</li>
             </ul>
         </div>
 
@@ -204,15 +208,15 @@
             <div class="descripcion">
                 <!-- <h3>IF</h3> -->
                 <img src="assets/img-ui/logo-if.svg" alt="" class="logo">
-                <p>Participé en el desarrollo de IF, una plataforma dedicada a brindar asesoría financiera virtual a emprendedores y empresarios.</p>
-                <a class="btn tx-if" href="https://if-bot.com" target="_blank">Visitar IF</a>
+                <p id="lang-proyecto1-1">Participé en el desarrollo de IF, una plataforma dedicada a brindar asesoría financiera virtual a emprendedores y empresarios.</p>
+                <a id="lang-proyecto1-2" class="btn tx-if" href="https://if-bot.com" target="_blank">Visitar IF</a>
             </div>
             <img src="assets/img-ui/iphone-if.png" alt="" class="mockup-if">
         </div>
         <div class="detalle-proyecto detalle-if">
             <img class="main-if" src="assets/img-ui/Dispositivos-IF-Mockup-actualizado.png">
             <div class="mg-auto">
-                <p>Me encargué del diseño y desarrollo de branding, UI, desarrollo de recursos web, creación e implementación de estructura HTML y hojas de estilos CSS, desarrollo de algunas funcionalidades de los modelos a través de JavaScript, revisión y redacción de textos, contenido para redes sociales y contenido audiovisuales, así como su mantenimiento.</p>
+                <p id="lang-proyecto1-3">Me encargué del diseño y desarrollo de branding, UI, desarrollo de recursos web, creación e implementación de estructura HTML y hojas de estilos CSS, desarrollo de algunas funcionalidades de los modelos a través de JavaScript, revisión y redacción de textos, contenido para redes sociales y contenido audiovisuales, así como su mantenimiento.</p>
             </div>
         </div>
         
@@ -221,14 +225,13 @@
             <div class="descripcion">
                 <!-- <h3>Litterae</h3> -->
                 <img src="assets/img-ui/logo-litterae.svg" alt="" class="logo">
-                <p>También participé en el desarrollo de Litterae, una plataforma dedicada a la consulta de referencias laborales de posibles colaboradores que las
-                    empresas estén interesadas en contratar.</p>
-                <a class="btn tx-litterae" href="https://litterae.io" target="_blank">Visitar Litterae</a>
+                <p id="lang-proyecto2-1">También participé en el desarrollo de Litterae, una plataforma dedicada a la consulta de referencias laborales de posibles colaboradores que las empresas estén interesadas en contratar.</p>
+                <a id="lang-proyecto2-2" class="btn tx-litterae" href="https://litterae.io" target="_blank">Visitar Litterae</a>
             </div>
         </div>
         <div class="detalle-proyecto detalle-litterae">
             <div class="mg-auto">
-                <p>Estuve involucrada en el desarrollo del diseño del concepto, UI, desarrollo de recursos visuales y audiovisuales, optimización de estructura HTML y creación de hojas estilos CSS. </p>
+                <p id="lang-proyecto2-3">Estuve involucrada en el desarrollo del diseño del concepto, UI, desarrollo de recursos visuales y audiovisuales, optimización de estructura HTML y creación de hojas estilos CSS. </p>
             </div>
             <div>
                 <img class="main-litterae" src="assets/img-ui/litterae-main.png">
@@ -245,9 +248,9 @@
 
     <!-- GALERÍA -->
     <section id="galeria" class="galeria">
-        <h2>Portafolio</h2>
+        <h2 id="lang-subtitle3">Portafolio</h2>
 
-        <h3>UI/UX</h3>
+        <h3 id="lang-subtitle-portfolio1">UI/UX</h3>
         <div class="contenedor-galeria">
             <article class="card">
                 <img id="myImg" class="p-img" src="assets/img-ui/UIUX-img-mockup-ful.jpg" alt="Imagen-portafolio">
@@ -294,7 +297,7 @@
         </div>
         <img class="ui-img" src="assets/img-ui/UI-Litterae.svg" alt="Imagen-portafolio">
 
-        <h3>Contenido visual</h3>
+        <h3 id="lang-subtitle-portfolio2">Contenido visual</h3>
         <div class="contenedor-galeria">
 
             <article class="card">
@@ -381,7 +384,7 @@
             </div>
 
         </div>
-        <h3>Ilustración</h3>
+        <h3 id="lang-subtitle-portfolio3">Ilustración</h3>
         <div class="contenedor-galeria">
 
             <article class="card">
@@ -482,7 +485,7 @@
             
         </div>
 
-        <h3>Video</h3>
+        <h3 id="lang-subtitle-portfolio4">Video</h3>
         <div class="contenedor-galeria">
 
             <article class="card">
@@ -510,12 +513,12 @@
 
     <footer id="contacto">
         <div class="cosa">
-            <h4>Contacto</h4>
+            <h4 id="lang-footer-title">Contacto</h4>
         </div>
         <div class="cosa">
             <!-- <p><a class="foot-link" href="https://my.indeed.com/p/andrear-gne5ob5"><i class="far fa-file-alt"></i> Indeed</a></p> -->
             <p><a class="foot-link" href="https://wa.me/527712334066" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a></p>
-            <p><a class="foot-link" href="mailto:annn.ruuu@gmail.com"><i class="far fa-envelope"></i> Envíame un e-mail</a></p>
+            <p><a id="lang-footer1" class="foot-link" href="mailto:annn.ruuu@gmail.com"><i class="far fa-envelope"></i> Envíame un e-mail</a></p>
         </div>
 
         <a href="#" class="btn-up"><i class="fas fa-caret-up"></i></a>
@@ -523,7 +526,7 @@
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <!-- <script type='text/javascript' src="assets/design.js"></script> -->
+    <script type='text/javascript' src="assets/design.js"></script>
 
 </body>
 
