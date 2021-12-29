@@ -19,6 +19,20 @@
 //     }
 // });
 
+function navResponsive() {
+    console.log('Nav responsive');
+    var x = document.getElementById("navbar");
+    if (x.className === "menu") {
+      x.className += " responsive";
+    } else {
+      x.className = "menu";
+    }
+}
+
+$('section').on("click", function(event) {
+    $(".menu").removeClass('responsive');
+});
+
 /*
 //ways to retrieve selected option and text outside handler
 console.log('Valor de opción seleccionado inicialmente ' + $('select option').filter(':selected').val()); 
@@ -88,7 +102,7 @@ var este = $('select option').filter(':selected').val();
         $('#lang-subtitle-portfolio3').html("Illustration");
         $('#lang-subtitle-portfolio4').html("Video");
 
-        $('#lang-footer-title').html("Contact");
+        $('#lang-footer-title').html("Contact me");
         $('#lang-footer1').html('<i class="far fa-envelope"></i> Send me an e-mail');
 
         $('#lang-aside-title').html("Andrea Ruiz <br> Graphic Design");
