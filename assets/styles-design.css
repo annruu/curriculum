@@ -90,7 +90,8 @@ a{
 }
 
 .link-menu{
-    color: #925bf3 !important;
+    /* color: #925bf3 !important; */
+    color: #5b77f3 !important;
     transition: 0.3s ease all;
     font-weight: 400;
 }
@@ -99,7 +100,8 @@ a{
 }
 
 .morado{
-    color: #925bf3 !important;
+    /* color: #925bf3 !important; */
+    color: #5b77f3 !important;
 }
 
 .lenguaje {
