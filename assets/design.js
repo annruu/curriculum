@@ -55,7 +55,7 @@ var este = $('select option').filter(':selected').val();
         $('#lang-title').html('Andrea Ruiz | Graphic Design');
 
         $('#lang-intro-1').html('¡Hi! 👋🏻');
-        $('#lang-intro-2').html("I'm a Graphic and UI Designer 👩🏻‍💻<br>I have been always been passioned about challenges in which I can improve and give attractive and functional visual solutions. I love to illustrate, it's one of my hobbies. <br>I'm constantly looking for my skills improvement, nowadays I'm about to finish a UX Design Certification by Google. <br>For me, commitment and responsibility are invaluables, that's why my priority has always been acting with those values in every move I make.");
+        $('#lang-intro-2').html("I'm a Graphic and UI Designer 👩🏻‍💻<br>I have been always been passioned about challenges in which I can improve and give attractive and functional visual solutions. I love to draw different kinds of illustrations, that is one of my biggest hobbies ❤️ <br>I'm constantly looking for my skills improvement, nowadays I'm about to finish a UX Design Certification by Google. <br>For me, commitment and responsibility are invaluables, that's why my priority has always been acting with those values in every move I make.");
         
         $('#lang-subtitle1').html("Work experience");
         $('#lang-subtitle2').html("Skills");
@@ -64,6 +64,7 @@ var este = $('select option').filter(':selected').val();
         $('#lang-exp1').html('I did my internship in the Language Center at the Autonomous University of Hidalgo State in Mexico, generating Web resources for Make it Real! platform dedicated to the teaching of English Language');
         $('#lang-exp2').html('I worked during 5 years in CIGE México, a Startup focused on Technology sector where I performed Graphic Design activities, in adition to acquire and develop User Interface Design skills.');
         $('#lang-exp3').html('My activities were oriented towards the company branding and its products <a class="link-menu" href="https://if-bot.com" target="_blank">IFbot</a> and <a class="link-menu" href="https://litterae.io" target="_blank">Litterae</a>, social media content design and web resources of each one that included <span class="highlight-discrete">ilustrations</span>, <span class="highlight-discrete">UI Design</span>, <span class="highlight-discrete">audiovisual content</span> and <span class="highlight-discrete">animations</span>, as well as the support in the development and manteinance of the company products.');
+        $('#lang-exp4').html('In January 2022, I started to work at <a class="link-menu" href="https://bootcamp-institute.com/" target="_blank">Bootcamp Institute</a>, initialy performind in Graphic Design area exclusively, creating <span class="highlight-discrete">presentations</span>, <span class="highlight-discrete">e-books</span>, social media content like <span class="highlight-discrete">banners</span>, <span class="highlight-discrete">infographics</span>, <span class="highlight-discrete">informative carousels</span>, <span class="highlight-discrete">graphic resources for its Website</span> like <span class="highlight-discrete">icons</span>, <span class="highlight-discrete">images</span>, <span class="highlight-discrete">animated svg</span>. Eventually, I started to perform Web design activities like <span class="highlight-discrete">page optimization</span> to achieve a correct display on different devices, <span class="highlight-discrete">design and creation of website pages</span> through <span class="highlight-discrete">Pagefly</span> and <span class="highlight-discrete">Shopify</span>, combining then my CSS, JavaScript and HTML previous knowledge with this tools and design.');
 
         $('#lang-skill-subtitle1').html("UI/UX");
         $('#lang-skill-subtitle2').html("Graphic Design");
@@ -106,7 +107,7 @@ var este = $('select option').filter(':selected').val();
         $('#lang-footer1').html('<i class="far fa-envelope"></i> Send me an e-mail');
 
         $('#lang-aside-title').html("Andrea Ruiz <br> Graphic Design");
-        $('#lang-aside-info').html("Graphic and UI designer. I love to illustrate, reading and coffee.");
+        $('#lang-aside-info').html(" 👩🏻‍💻 <b>Graphic and UI designer.</b> I love Arts, reading and learning things✨");
         $('#lang-aside-subtitle1').html("Tools");
         $('#lang-aside-subtitle2').html("Languages");
         $('#lang-aside-language1').html("🇲🇽 Spanish");
@@ -122,7 +123,7 @@ var este = $('select option').filter(':selected').val();
         $('#lang-title').html('Andrea Ruiz | Diseño gráfico');
 
         $('#lang-intro-1').html('¡Hola! 👋🏻');
-        $('#lang-intro-2').html('Soy Diseñadora Gráfico y UI 👩🏻‍💻 <br>Siempre me han apasionado los retos en los que pueda dar soluciones visuales funcionales y atractivas. Me encanta ilustrar, es uno de mis pasatiempos. <br>Constantemente busco mejorar y desarrollar mis habilidades, actualmente estoy cursando una Certificación de Google en Diseño UX.  <br>Para mí, el compromiso y la responsabilidad son invaluables, por eso mi prioridad siempre ha sido actuar con tales valores en cada acción que tomo.');
+        $('#lang-intro-2').html('Soy Diseñadora Gráfico y UI 👩🏻‍💻 <br>Siempre me han apasionado los retos en los que pueda dar soluciones visuales funcionales y atractivas.  Me encanta ilustrar, es uno de mis pasatiempos ❤️ <br>Constantemente busco mejorar y desarrollar mis habilidades, actualmente estoy cursando una Certificación de Google en Diseño UX.  <br>Para mí, el compromiso y la responsabilidad son invaluables, por eso mi prioridad siempre ha sido actuar con tales valores en cada acción que tomo.');
         
         $('#lang-subtitle1').html("Experiencia");
         $('#lang-subtitle2').html("Habilidades");
@@ -131,6 +132,7 @@ var este = $('select option').filter(':selected').val();
         $('#lang-exp1').html("Realicé mi servicio social en el Centro de Lenguas de la Universidad Autónoma del Estado de Hidalgo, México, generando recursos web para la plataforma Make it Real! dedicada a la enseñanza de la Lengua Inglesa.");
         $('#lang-exp2').html("Trabajé durante 5 años en CIGE México, una Startup enfocada al sector tecnológico en donde desempeñé actividades de Diseño gráfico, además de adquirir y desarrollar habilidades de Diseño de Interfaz de Usuario.");
         $('#lang-exp3').html('Mis actividades fueron orientadas al diseño de la imagen de la empresa y sus productos <a class="link-menu" href="https://if-bot.com" target="_blank">IFbot</a> y <a class="link-menu" href="https://litterae.io" target="_blank">Litterae</a>, al diseño de contenido visual para redes sociales y de recursos web de cada uno, que incluían <span class="highlight-discrete">ilustraciones</span>, <span class="highlight-discrete">diseño UI</span>, <span class="highlight-discrete">contenido audiovisual</span> y <span class="highlight-discrete">animaciones</span>, así como apoyar en el desarrollo y mantenimiento de los productos de la empresa.');
+        $('#lang-exp4').html('En enero de 2022 comencé a trabajar en <a class="link-menu" href="https://bootcamp-institute.com/" target="_blank">Bootcamp Institute</a>, desempeñándome inicialmente en el área exclusiva de Diseño Gráfico creando <span class="highlight-discrete">presentaciones</span>, <span class="highlight-discrete">e-books</span>, contenido para redes sociales como <span class="highlight-discrete">banners</span>, <span class="highlight-discrete">infografías</span>, <span class="highlight-discrete">carruseles</span>, <span class="highlight-discrete">promocionales</span>, <span class="highlight-discrete">recursos gráficos para su sitio Web</span> como <span class="highlight-discrete">iconos</span>, <span class="highlight-discrete">imágenes</span>, <span class="highlight-discrete">svg animados</span>, y eventualmente comencé a tomar actividades del sitio Web como <span class="highlight-discrete">optimización de las páginas</span> para la correcta visualización en diversos dispositivos, <span class="highlight-discrete">diseño y creación de páginas</span> a través de <span class="highlight-discrete">Pagefly</span> y <span class="highlight-discrete">Shopify</span>, combinando así mis conocimientos previos de CSS, javascript y html con esas herramientas y diseño.');
 
         $('#lang-skill-subtitle1').html("UI/UX");
         $('#lang-skill-subtitle2').html("Diseño Gráfico");
@@ -172,7 +174,7 @@ var este = $('select option').filter(':selected').val();
         $('#lang-footer1').html('<i class="far fa-envelope"></i> Envíame un e-mail');
 
         $('#lang-aside-title').html("Andrea Ruiz <br> Diseño Gráfico");
-        $('#lang-aside-info').html("Diseñadora Gráfico y UI. Me encanta ilustrar, leer y el café.");
+        $('#lang-aside-info').html(" 👩🏻‍💻<b>Diseñadora Gráfica y UI.</b> Me encanta el Arte, leer y aprender cosas✨");
         $('#lang-aside-subtitle1').html("Herramientas");
         $('#lang-aside-subtitle2').html("Lenguajes");
         $('#lang-aside-language1').html("🇲🇽 Español");
